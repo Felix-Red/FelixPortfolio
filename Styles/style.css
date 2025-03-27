@@ -19,6 +19,7 @@ body {
     width: 100%;
     max-width: 800px;
     padding: 20px;
+    display: none; /* Hidden until loading completes */
 }
 
 h1 {
@@ -63,7 +64,7 @@ h1 {
 
 .avatar i {
     font-size: 4rem;
-    color: #b3b3b3;
+    color: white; /* Changed from grey to white for better visibility */
 }
 
 .name {
@@ -112,9 +113,9 @@ h1 {
     position: absolute;
     width: 60px;
     height: 150px;
-    background-color: #e50914; /* Netflix red - change if you want a different color */
+    background-color: #e50914;
     animation: logoGrow 0.5s forwards;
-    border-radius: 4px; /* Added for a slightly softer look */
+    border-radius: 4px;
 }
 
 .logo-part.left {
@@ -133,18 +134,18 @@ h1 {
 }
 
 .logo-text {
-    color: #e50914; /* Matching the bar color */
+    color: #e50914;
     font-size: 4rem;
     font-weight: 700;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; /* Makes "felix" appear as "FELIX" */
+    text-transform: uppercase;
     position: absolute;
     bottom: -60px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
     animation: textFadeIn 0.5s 2s forwards;
-    letter-spacing: 2px; /* Adds some spacing between letters */
+    letter-spacing: 2px;
 }
 
 @keyframes logoGrow {
@@ -167,8 +168,6 @@ h1 {
     from { opacity: 1; }
     to { opacity: 0; visibility: hidden; }
 }
-
-
 
 /* Responsive adjustments */
 @media (max-width: 600px) {

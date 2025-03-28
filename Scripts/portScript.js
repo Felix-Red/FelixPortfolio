@@ -1,14 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Skills Data
-    const skills = [
-        { icon: 'fas fa-gem', name: 'Ruby on Rails', description: '5+ years building scalable applications' },
-        { icon: 'fab fa-react', name: 'React', description: 'Modern frontend development' },
-        { icon: 'fab fa-aws', name: 'AWS', description: 'Cloud infrastructure and deployment' },
-        { icon: 'fas fa-server', name: 'Kubernetes', description: 'Container orchestration' },
-        { icon: 'fas fa-shield-alt', name: 'Security', description: 'Advanced security implementations' },
-        { icon: 'fas fa-tachometer-alt', name: 'Performance', description: 'Optimization and scaling' }
-    ];
-
     // Projects Data
     const projects = [
         { 

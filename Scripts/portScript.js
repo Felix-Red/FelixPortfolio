@@ -18,19 +18,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     ];
 
-    // Render Skills
-    const skillsContainer = document.getElementById('skills-container');
-    skills.forEach(skill => {
-        const skillCard = document.createElement('div');
-        skillCard.className = 'skill-card';
-        skillCard.innerHTML = `
-            <i class="${skill.icon}"></i>
-            <h3>${skill.name}</h3>
-            <p>${skill.description}</p>
-        `;
-        skillsContainer.appendChild(skillCard);
-    });
-
     // Render Projects
     const projectsContainer = document.getElementById('projects-container');
     projects.forEach(project => {

@@ -140,7 +140,7 @@ h1 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     position: absolute;
-    bottom: -60px;
+    bottom: -85px;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
